@@ -14,6 +14,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+console.log(__dirname);
 app.set('view engine', 'jade');
 
 app.use(favicon());
